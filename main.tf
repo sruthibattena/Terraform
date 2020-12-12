@@ -1,8 +1,5 @@
 provider "aws" {
   region = "us-east-1"
-  access_key = "AKIAJ24ZWPU5DYHZEWDA"
-  secret_key = "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"
-}
 
 data "aws_ami" "ami-1" {
     owners = ["self"]
